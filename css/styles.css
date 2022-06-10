@@ -1,0 +1,167 @@
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h2, h3, h4, h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.big-heading {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 5%;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.nav-link {
+  color: grey;
+  margin: 0 18px;
+}
+
+/* Navigation Buttons */
+
+.navigation-button {
+  margin: 5% 3% 0 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Feature Section */
+
+#features {
+  background-color: #fff;
+  text-align: center;
+}
+
+.feature-heading {
+  padding: 3%;
+}
+
+.feature-box {
+  padding: 0 5%;
+}
+
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+#testimonials {
+  background-color:  #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  border-radius: 50px;
+  width: 7%;
+  margin: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 5%;
+  margin: 0 0;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.box {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-h {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 5px;
+}
+
+
+@media (max-width: 1060px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 50px;
+    width: 60%;
+  }
+  #title {
+  text-align: center;
+}
+
+.big-heading {
+  text-align: center;
+}
+}
